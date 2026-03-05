@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Clone Code') {
             steps {
-                git 'https://github.com/your-repo/my-app.git'
+                git 'https://github.com/dhatchina-peri/my-docker-app.git'
             }
         }
 
@@ -27,3 +27,4 @@ pipeline {
         }
     }
 }
+
